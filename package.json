@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "multer": "^1.4.5-lts.1",
+    "xliff": "^6.2.1",
+    "xml-js": "^1.6.11"
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XLIFF Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- <input type="file" id="fileInput" accept=".xliff">
+    <div id="output"></div>
+    
+    <button id="saveButton">Save Changes</button>
+    <button onclick="downloadXLIFF()">Download Edited XLIFF</button>
+    <script src="app.js"></script> -->
+
+    <header>
+        <h1>XLIFF Editor</h1>
+    </header>
+
+    <main>
+        <section id="fileUpload">
+            <h2>Upload Your XLIFF File</h2>
+            <input type="file" id="fileInput" accept=".xliff">
+            <div id="output"></div>
+        </section>
+
+        <section id="editor" style="padding-bottom: 36px;">
+            <h2>Edit Translations</h2>
+            <div id="output"></div>
+            <button id="saveButton">Save Changes</button>
+            <button onclick="downloadXLIFF()">Download Edited XLIFF</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 XLIFF Editor. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
